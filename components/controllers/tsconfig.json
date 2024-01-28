@@ -1,0 +1,14 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "sourceMap": true,
+      "baseUrl": ".",
+      "paths": {
+        "core/*": ["../core/src/*"],
+        "schema/*": ["../schema/src/*"]
+      }
+    }
+  }
+  
